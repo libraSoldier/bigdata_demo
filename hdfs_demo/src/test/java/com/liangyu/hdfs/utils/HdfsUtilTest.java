@@ -1,11 +1,13 @@
 package com.liangyu.hdfs.utils;
 
 import com.liangyu.hdfs.base.BaseTest;
+import com.liangyu.hdfs.bean.common.HdfsResource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -21,7 +23,7 @@ public class HdfsUtilTest extends BaseTest {
     public void listDirsTest() throws InterruptedException, IOException, URISyntaxException {
 
         log.info("开始进行单元测试！");
-        HdfsUtil.listDirs("/user");
+        List<HdfsResource> demoList =  HdfsUtil.listDirs("/user");
     }
 
 }
