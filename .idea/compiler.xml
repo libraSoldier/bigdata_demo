@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bigdata_demo" />
         <module name="hdfs_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bigdata_demo" target="1.8" />
       <module name="hdfs_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bigdata_demo" options="-parameters" />
       <module name="hdfs_demo" options="-parameters" />
     </option>
   </component>

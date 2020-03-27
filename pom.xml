@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>bigdata_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>hdfs_demo</module>
@@ -21,11 +22,11 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
         <fastjson.version>1.2.28</fastjson.version>
         <lombok.version>1.18.8</lombok.version>
         <!-- 大数据底层依赖版本-->
         <hadoop.version>3.1.2</hadoop.version>
-
     </properties>
 
     <dependencyManagement>
@@ -35,12 +36,14 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot.version}</version>
             </dependency>
 
             <!-- 单元测试依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
                 <scope>test</scope>
             </dependency>
 
