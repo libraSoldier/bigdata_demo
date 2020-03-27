@@ -29,10 +29,8 @@ public class HdfsUtil {
 
         if(ArrayUtils.isEmpty(fileStatuses)) { return resultList; }
 
-        HdfsResource hdfsResource = null;
-
         for (FileStatus fileStatus : fileStatuses) {
-            hdfsResource = new HdfsResource();
+            HdfsResource hdfsResource = new HdfsResource();
             hdfsResource.setPath(fileStatus.getPath().toString());
             hdfsResource.setLength(fileStatus.getLen());
             hdfsResource.setSize(FileSystemUtil.formatFileSize(fileStatus.getLen()));

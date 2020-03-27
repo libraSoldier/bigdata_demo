@@ -18,10 +18,8 @@ import org.springframework.stereotype.Component;
 public class HdfsConfig {
 
     /** HDFS文件系统服务器的地址以及端口 */
-    @Value("${hdfs.path}")
     private String path;
 
     /** HDFS文件系统服务器的地址以及端口 */
-    @Value("${hdfs.user}")
     private String user;
 }

@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.net.URI;
@@ -16,6 +17,7 @@ import java.net.URISyntaxException;
  * @Description
  */
 @Slf4j
+@Component
 public class FileSystemUtil {
 
     private static HdfsConfig hdfsConfig;
