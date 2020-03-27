@@ -2,16 +2,12 @@ package com.liangyu.hdfs.utils;
 
 import com.liangyu.hdfs.base.BaseTest;
 import com.liangyu.hdfs.bean.common.HdfsResource;
-import com.liangyu.hdfs.config.HdfsConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * @Author liangyu
