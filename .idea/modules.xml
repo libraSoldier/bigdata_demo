@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bigdata_demo.iml" filepath="$PROJECT_DIR$/.idea/bigdata_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdfs_demo/hdfs_demo.iml" filepath="$PROJECT_DIR$/hdfs_demo/hdfs_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive_demo/hive_demo.iml" filepath="$PROJECT_DIR$/hive_demo/hive_demo.iml" />
     </modules>
   </component>
 </project>

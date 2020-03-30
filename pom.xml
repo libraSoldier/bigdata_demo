@@ -11,6 +11,7 @@
 
     <modules>
         <module>hdfs_demo</module>
+        <module>hive_demo</module>
     </modules>
 
     <parent>
