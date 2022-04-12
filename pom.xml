@@ -27,7 +27,7 @@
         <fastjson.version>1.2.28</fastjson.version>
         <lombok.version>1.18.8</lombok.version>
         <!-- 大数据底层依赖版本-->
-        <hadoop.version>3.1.2</hadoop.version>
+        <hadoop.version>3.2.3</hadoop.version>
     </properties>
 
     <dependencyManagement>
